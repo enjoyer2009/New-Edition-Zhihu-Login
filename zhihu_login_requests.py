@@ -43,7 +43,7 @@ def is_login():
     print(response.status_code)
     if response.status_code != 200:
         print("尚未登录")
-        zhihu_login("+8615639151996", "liu960521")
+        zhihu_login("+861563915****", "****")
     else:
         print("你已经登陆了")
 
